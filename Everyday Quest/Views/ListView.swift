@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct ListView: View {
+    
+    @ObservedObject var shareData: SharedData
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("public variable: \(shareData.sharedVariable)")
+            .padding()
     }
 }
 
 #Preview {
-    ListView()
+    ListView(shareData: SharedData())
 }

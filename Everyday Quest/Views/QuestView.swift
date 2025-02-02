@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct QuestView: View {
+    @ObservedObject var shareData = SharedData()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            TextField("Write", text: $shareData.sharedVariable)
+                .textFieldStyle(.roundedBorder)
+                .padding()
+            
+        }
+        .padding()
     }
 }
 

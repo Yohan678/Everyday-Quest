@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import Combine
+
+class SharedData: ObservableObject {
+    @Published var sharedVariable: String = "Initial"
+}
