@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DBA561BD2D4EFCC4000633CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBA561A42D4EFCC4000633CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBA561AB2D4EFCC4000633CA;
+			remoteInfo = "Everyday Quest";
+		};
+		DBA561C72D4EFCC4000633CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBA561A42D4EFCC4000633CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBA561AB2D4EFCC4000633CA;
+			remoteInfo = "Everyday Quest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBA561AC2D4EFCC4000633CA /* Everyday Quest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Everyday Quest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA561BC2D4EFCC4000633CA /* Everyday QuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Everyday QuestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA561C62D4EFCC4000633CA /* Everyday QuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Everyday QuestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DBA561AE2D4EFCC4000633CA /* Everyday Quest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Everyday Quest";
+			sourceTree = "<group>";
+		};
+		DBA561BF2D4EFCC4000633CA /* Everyday QuestTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Everyday QuestTests";
+			sourceTree = "<group>";
+		};
+		DBA561C92D4EFCC4000633CA /* Everyday QuestUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Everyday QuestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBA561A92D4EFCC4000633CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA561B92D4EFCC4000633CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA561C32D4EFCC4000633CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBA561A32D4EFCC4000633CA = {
+			isa = PBXGroup;
+			children = (
+				DBA561AE2D4EFCC4000633CA /* Everyday Quest */,
+				DBA561BF2D4EFCC4000633CA /* Everyday QuestTests */,
+				DBA561C92D4EFCC4000633CA /* Everyday QuestUITests */,
+				DBA561AD2D4EFCC4000633CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBA561AD2D4EFCC4000633CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBA561AC2D4EFCC4000633CA /* Everyday Quest.app */,
+				DBA561BC2D4EFCC4000633CA /* Everyday QuestTests.xctest */,
+				DBA561C62D4EFCC4000633CA /* Everyday QuestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBA561AB2D4EFCC4000633CA /* Everyday Quest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA561D02D4EFCC4000633CA /* Build configuration list for PBXNativeTarget "Everyday Quest" */;
+			buildPhases = (
+				DBA561A82D4EFCC4000633CA /* Sources */,
+				DBA561A92D4EFCC4000633CA /* Frameworks */,
+				DBA561AA2D4EFCC4000633CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DBA561AE2D4EFCC4000633CA /* Everyday Quest */,
+			);
+			name = "Everyday Quest";
+			packageProductDependencies = (
+			);
+			productName = "Everyday Quest";
+			productReference = DBA561AC2D4EFCC4000633CA /* Everyday Quest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBA561BB2D4EFCC4000633CA /* Everyday QuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA561D32D4EFCC4000633CA /* Build configuration list for PBXNativeTarget "Everyday QuestTests" */;
+			buildPhases = (
+				DBA561B82D4EFCC4000633CA /* Sources */,
+				DBA561B92D4EFCC4000633CA /* Frameworks */,
+				DBA561BA2D4EFCC4000633CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBA561BE2D4EFCC4000633CA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DBA561BF2D4EFCC4000633CA /* Everyday QuestTests */,
+			);
+			name = "Everyday QuestTests";
+			packageProductDependencies = (
+			);
+			productName = "Everyday QuestTests";
+			productReference = DBA561BC2D4EFCC4000633CA /* Everyday QuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBA561C52D4EFCC4000633CA /* Everyday QuestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA561D62D4EFCC4000633CA /* Build configuration list for PBXNativeTarget "Everyday QuestUITests" */;
+			buildPhases = (
+				DBA561C22D4EFCC4000633CA /* Sources */,
+				DBA561C32D4EFCC4000633CA /* Frameworks */,
+				DBA561C42D4EFCC4000633CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBA561C82D4EFCC4000633CA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DBA561C92D4EFCC4000633CA /* Everyday QuestUITests */,
+			);
+			name = "Everyday QuestUITests";
+			packageProductDependencies = (
+			);
+			productName = "Everyday QuestUITests";
+			productReference = DBA561C62D4EFCC4000633CA /* Everyday QuestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBA561A42D4EFCC4000633CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					DBA561AB2D4EFCC4000633CA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DBA561BB2D4EFCC4000633CA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DBA561AB2D4EFCC4000633CA;
+					};
+					DBA561C52D4EFCC4000633CA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DBA561AB2D4EFCC4000633CA;
+					};
+				};
+			};
+			buildConfigurationList = DBA561A72D4EFCC4000633CA /* Build configuration list for PBXProject "Everyday Quest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBA561A32D4EFCC4000633CA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DBA561AD2D4EFCC4000633CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBA561AB2D4EFCC4000633CA /* Everyday Quest */,
+				DBA561BB2D4EFCC4000633CA /* Everyday QuestTests */,
+				DBA561C52D4EFCC4000633CA /* Everyday QuestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBA561AA2D4EFCC4000633CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA561BA2D4EFCC4000633CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA561C42D4EFCC4000633CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBA561A82D4EFCC4000633CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA561B82D4EFCC4000633CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA561C22D4EFCC4000633CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBA561BE2D4EFCC4000633CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBA561AB2D4EFCC4000633CA /* Everyday Quest */;
+			targetProxy = DBA561BD2D4EFCC4000633CA /* PBXContainerItemProxy */;
+		};
+		DBA561C82D4EFCC4000633CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBA561AB2D4EFCC4000633CA /* Everyday Quest */;
+			targetProxy = DBA561C72D4EFCC4000633CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBA561CE2D4EFCC4000633CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBA561CF2D4EFCC4000633CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBA561D12D4EFCC4000633CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Everyday Quest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yohandev.Everyday-Quest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBA561D22D4EFCC4000633CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Everyday Quest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yohandev.Everyday-Quest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBA561D42D4EFCC4000633CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yohandev.Everyday-QuestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Everyday Quest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Everyday Quest";
+			};
+			name = Debug;
+		};
+		DBA561D52D4EFCC4000633CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yohandev.Everyday-QuestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Everyday Quest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Everyday Quest";
+			};
+			name = Release;
+		};
+		DBA561D72D4EFCC4000633CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yohandev.Everyday-QuestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Everyday Quest";
+			};
+			name = Debug;
+		};
+		DBA561D82D4EFCC4000633CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yohandev.Everyday-QuestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Everyday Quest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBA561A72D4EFCC4000633CA /* Build configuration list for PBXProject "Everyday Quest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA561CE2D4EFCC4000633CA /* Debug */,
+				DBA561CF2D4EFCC4000633CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBA561D02D4EFCC4000633CA /* Build configuration list for PBXNativeTarget "Everyday Quest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA561D12D4EFCC4000633CA /* Debug */,
+				DBA561D22D4EFCC4000633CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBA561D32D4EFCC4000633CA /* Build configuration list for PBXNativeTarget "Everyday QuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA561D42D4EFCC4000633CA /* Debug */,
+				DBA561D52D4EFCC4000633CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBA561D62D4EFCC4000633CA /* Build configuration list for PBXNativeTarget "Everyday QuestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA561D72D4EFCC4000633CA /* Debug */,
+				DBA561D82D4EFCC4000633CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBA561A42D4EFCC4000633CA /* Project object */;
+}
